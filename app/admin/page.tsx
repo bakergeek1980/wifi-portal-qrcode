@@ -749,7 +749,7 @@ export default function AdminDashboard() {
               </div>
 
               <button
-                onClick={() => alert('Horaires sauvegardés (À implémenter avec l\'API)')}
+                onClick={handleSaveWifiHours}
                 className="w-full bg-gradient-to-r from-amber-600 to-orange-600 text-white py-3 rounded-lg font-semibold hover:from-amber-700 hover:to-orange-700 transition shadow-lg"
               >
                 Sauvegarder les horaires
